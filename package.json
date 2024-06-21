@@ -1,0 +1,17 @@
+{
+  "name": "papago-enhanced",
+  "module": "lib/wrapper.tsx",
+  "type": "module",
+  "scripts": {
+    "build": "bun run cfg/build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hangul-js": "^0.2.6"
+  }
+}

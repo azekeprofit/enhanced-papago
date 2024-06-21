@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Enhanced Papago",
+  "description": "Forces Papago input field to treat all keyboard (Eng or Ru) input as if you’re in Hangeul mode, adds Hanja reference bar",
+  "version": "0.0.0.1",
+  "content_scripts": [
+    {
+      "js": ["wrapper.js"],
+      "css": ["style.css"],
+      "world": "MAIN",
+      "run_at": "document_start",
+      "matches": ["https://papago.naver.com/*"]
+    }
+  ]
+}
